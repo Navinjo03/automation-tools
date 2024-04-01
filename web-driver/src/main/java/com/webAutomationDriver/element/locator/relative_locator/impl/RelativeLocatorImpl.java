@@ -1,0 +1,51 @@
+package com.webAutomationDriver.element.locator.relative_locator.impl;
+
+
+import com.webAutomationDriver.element.locator.relative_locator.service.RelativeLocator;
+import com.webAutomationDriver.element.web_element.service.PageElement;
+import com.webAutomationDriver.element.locator.Locators;
+
+public class RelativeLocatorImpl implements RelativeLocator {
+
+    private org.openqa.selenium.support.locators.RelativeLocator relativeLocator;
+
+    @Override
+    public RelativeLocator above(final PageElement element) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator above(final Locators locator) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator below(final PageElement element) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator below(final Locators locator) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator toRightOf(final PageElement element) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator toRightOf(final Locators locator) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator toLeftOf(final PageElement element) {
+        return null;
+    }
+
+    @Override
+    public RelativeLocator toLeftOf(final Locators locator) {
+        return null;
+    }
+}
